@@ -1,0 +1,66 @@
+.stock-container {
+  /* display: flex; */
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.stock-container {
+  h1 {
+    /* margin-right: 20px !important; */
+    /* width: 80%!important; */
+    font-size: 14px !important;
+    text-align: left !important;
+    padding: 10px !important;
+    background-color: rgb(72, 59, 243) !important;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0px;
+  }
+  .stock-content {
+    margin-top: 0px;
+    min-height: 125px;
+    /* border: 1px solid #e8e4e4; */
+    border-radius: 5px;
+    border-top: none;
+    padding: 1rem;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .stock-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2rem;
+
+    li {
+      padding: 5px;
+      border: 1px solid #e8e4e4;
+      cursor: pointer;
+      a {
+        color: rgb(45, 42, 42);
+        text-decoration: none;
+      }
+    }
+    li:hover {
+      background-color: #e8e4e4;
+      color: rgb(231 230 236);
+    }
+    .stock-list-title {
+      background-color: rgb(171, 171, 178) !important;
+    }
+  }
+}
+.selected-stock-code {
+  text-align: right;
+  margin-bottom: 1rem;
+  list-style-type: none;
+  a {
+    color: rgb(45, 42, 42);
+    text-decoration: none;
+    width: auto !important;
+    background-color: #e8e4e4;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+}
